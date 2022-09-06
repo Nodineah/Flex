@@ -4,6 +4,7 @@
     gap: 8px;
     padding: 5px;
     border: 1px solid #000;
+    flex: 1 1 0;
 }
 
 .block1,
@@ -11,5 +12,25 @@
 .block3 {
     display: flex;
     flex-direction: row;
-    
+}
+
+.block1 {
+    border: 3px solid #098;
+    padding: 3px;
+    justify-items: center;
+    justify-content: flex-start;
+}
+
+.block2 {
+    border: 3px solid #930;
+    padding: 3px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.block3 {
+    border: 3px solid #190;
+    padding: 3px;
+    justify-items: center;
+    justify-content: flex-end;
 }
